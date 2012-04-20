@@ -13,10 +13,12 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "redis-auto-batches"
   gem.require_paths = ["lib"]
-  gem.version       = Redis::Auto::Batches::VERSION
+  gem.version       = RedisAutoBatches::VERSION
 
   gem.add_dependency("redis")
   
   gem.add_development_dependency("rake")
   gem.add_development_dependency("rspec")
+  gem.add_development_dependency("guard-rspec")
+  gem.add_development_dependency("json")
 end
