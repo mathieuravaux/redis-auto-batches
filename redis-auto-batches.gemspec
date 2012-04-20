@@ -4,7 +4,7 @@ require File.expand_path('../lib/redis-auto-batches/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Mathieu Ravaux", "Sylvain Lemière", "Jeremy Van Der Wyngaert"]
   gem.email         = ["mathieu.ravaux@gmail.com"]
-  gem.description   = %q{Automatically and painlessly regroup your redis commands for performance }
+  gem.description   = %q{Automatically and painlessly batch your redis commands for performance}
   gem.summary       = %q{TODO: Write a gem summary}
   gem.homepage      = "http://github.com/mathieuravaux/redis-auto-batches"
 
