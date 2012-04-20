@@ -2,6 +2,10 @@
 
 TODO: Write a gem description
 
+## Build status ##
+
+[![Build Status](https://secure.travis-ci.org/mathieuravaux/redis-auto-batches.png?branch=master)](http://travis-ci.org/mathieuravaux/redis-auto-batches)
+
 ## Installation
 
 Add this line to your application's Gemfile:
