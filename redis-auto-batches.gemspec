@@ -21,4 +21,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency("rspec")
   gem.add_development_dependency("guard-rspec")
   gem.add_development_dependency("json")
+  gem.add_development_dependency("pry")
 end
